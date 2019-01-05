@@ -1,0 +1,50 @@
+{
+  "name": "trollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon --inspect server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "bcrypt": "^3.0.3",
+    "connect-redis": "^3.4.0",
+    "joi": "^14.3.0",
+    "jsonwebtoken": "^8.4.0",
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-generic-session": "^2.0.1",
+    "koa-jwt": "^3.5.1",
+    "koa-logger": "^2.0.1",
+    "koa-passport": "^4.1.1",
+    "koa-pg-session": "^2.0.1",
+    "koa-redis": "^3.1.3",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.0",
+    "koa-socket-2": "^1.0.17",
+    "koa-socket.io": "^1.1.2",
+    "koa.io": "0.0.3",
+    "mongodb": "^3.1.9",
+    "mongoose": "^5.3.10",
+    "mongoose-type-email": "^1.0.10",
+    "nodemon": "^1.18.6",
+    "parseurl": "^1.3.2",
+    "path": "^0.12.7",
+    "python": "0.0.4",
+    "save": "^2.3.2",
+    "socket.io": "^2.2.0",
+    "socketio-jwt": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.6"
+  }
+}
